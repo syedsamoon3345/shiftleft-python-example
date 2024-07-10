@@ -1,3 +1,4 @@
 Django==1.8.3
 Flask==1.0.3
 scrypt==0.8.17
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

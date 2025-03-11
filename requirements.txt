@@ -1,3 +1,5 @@
-Django==1.8.3
+Django==4.2.20
 Flask==1.0.3
 scrypt==0.8.17
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
